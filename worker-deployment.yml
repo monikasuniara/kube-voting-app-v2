@@ -16,7 +16,7 @@ spec:
       labels:
         name: voting-app-worker-pod
         app: demo-voting-app
-    spec:result-app-service.yml
+    spec:
       containers:
         - name: voting-app-worker
           image: docker/example-voting-app-worker
